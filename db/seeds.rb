@@ -1,6 +1,8 @@
 require 'faker'
 
 # create a few users
+User.create!(name: "bob", email: "bob@bob.com", password: "password")
+User.create!(name: "Joe", email: "joe@joe.com", password: "password")
 
 #TODO: Once you have implemented BCrypt - you can use these to seed your database.
 

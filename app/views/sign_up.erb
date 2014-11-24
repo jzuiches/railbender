@@ -1,6 +1,8 @@
 <div class="container">
   <h1>Sign Up</h1>
 
+     <%= display_error %>
+
   <form id="sign-up" method="post" action="/users">
     <label class="label" for="name">Name</label>
     <input type="text" name="user[name]" placeholder="e.g., joe" >
