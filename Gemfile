@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+<<<<<<< HEAD
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -43,3 +44,36 @@ group :production do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+=======
+ruby '2.0.0'
+
+# PostgreSQL driver
+gem 'pg'
+
+# Sinatra driver
+gem 'sinatra'
+gem 'sinatra-contrib'
+
+# Use Thin for our web server
+gem 'thin'
+
+gem 'activesupport', '~>4.1'
+gem 'activerecord', '~>4.1'
+
+gem 'rake'
+gem 'bcrypt'
+
+gem 'shotgun'
+gem 'rspec'
+
+group :test do
+  gem 'shoulda-matchers'
+  gem 'rack-test'
+end
+
+group :test, :development do
+
+  gem 'factory_girl'
+  gem 'faker'
+end
+>>>>>>> 12e6a3580a74f43e45ad834bef045f9e7d88bf88
