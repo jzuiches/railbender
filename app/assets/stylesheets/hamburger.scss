@@ -1,0 +1,60 @@
+@media (max-width: 599px) {
+header {
+   background:#ff0;
+   padding:10px;
+   height: 100px;
+}
+.hamburger {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 10px 0;
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
+.hamburger li {
+  width: 24px;
+  height: 4px;
+  background: #fff;
+  margin: 0 0 4px;
+  padding: 0;
+
+}
+a {
+  display: none;
+}
+
+.oc {
+      display: block;
+      padding: 1em;
+      clear: both;
+      overflow: hidden;
+    }
+
+  .js .oc {
+    width: 16em;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: -16em;
+
+    }
+
+    .wrapper.active {
+      left: 16em;
+      a {
+      display: block;
+      }
+      .hamburger a{
+      display: none;
+      }
+      #logo {
+      display: none;
+      }
+
+
+    }
+
+
+}

@@ -1,0 +1,26 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "header.scss";
+@import "footer.scss";
+@import "arrows.scss";
+@import "slider_blocks.scss";
+@import "hamburger.scss";
+
+
+html, body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+.wrapper {
+   min-height:100%;
+   position:relative;
+}
+
+.content {
+overflow-y: hidden;
+}
+
+
+
+

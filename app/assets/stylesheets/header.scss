@@ -1,3 +1,25 @@
-// Place all the styles related to the PersonalPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@media (min-width: 600px) {
+header {
+   background:#ff0;
+   padding:10px;
+   height: 100px;
+}
+
+#logo{
+  float: left;
+  font-size: 3em;
+}
+
+li {
+  font-size: 2.5em;
+  float: right;
+  padding: 0 1em 0 0;
+  list-style: none;
+
+}
+
+.oc {
+  display: none;
+}
+}
+
