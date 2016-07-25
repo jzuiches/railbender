@@ -58,8 +58,8 @@ a {
       -webkit-transform: translateX(16em);
       transform: translateX(16em);
 
-      -webkit-transform: translate3d(16em, 0, 0);
-      transform: translate3d(16em, 0, 0);
+      -webkit-transform: translateX(16em, 0, 0);
+      transform: translateX(16em, 0, 0);
 
       .content, footer {
         opacity: 0.5;
