@@ -1,6 +1,6 @@
-@media (max-width: 599px) {
+@media (max-width: 45em) {
 header {
-   background:#ff0;
+   background:#fff;
    padding:10px;
    height: 100px;
 }
@@ -13,10 +13,14 @@ header {
   top: 2px;
   left: 10px;
 }
+.hamburger:hover {
+
+}
 .hamburger li {
   width: 24px;
   height: 4px;
-  background: #fff;
+  box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+  background-color: #718087;
   margin: 0 0 4px;
   padding: 0;
 
@@ -25,11 +29,20 @@ a {
   display: none;
 }
 
+.hamburger.x{
+  li{
+  background-color: red;
+  }
+}
+
 .oc {
       display: block;
       padding: 1em;
       clear: both;
       overflow: hidden;
+        -webkit-transform: translateX(0);
+  transform: translateX(0);
+
     }
 
   .js .oc {
@@ -42,7 +55,15 @@ a {
     }
 
     .wrapper.active {
-      left: 16em;
+      -webkit-transform: translateX(16em);
+      transform: translateX(16em);
+
+      -webkit-transform: translate3d(16em, 0, 0);
+      transform: translate3d(16em, 0, 0);
+
+      .content, footer {
+        opacity: 0.5;
+      }
       a {
       display: block;
       }
