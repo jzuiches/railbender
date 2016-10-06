@@ -47,6 +47,8 @@ GEM
     bootstrap-sass (3.3.6)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
+    bootstrap-social-rails (4.12.0)
+      railties (>= 3.1)
     builder (3.2.2)
     byebug (9.0.5)
     coderay (1.1.1)
@@ -62,6 +64,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.13)
+    font-awesome-sass (4.6.2)
+      sass (>= 3.2)
     formatador (0.2.5)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
@@ -210,8 +214,10 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-sass (~> 3.3.6)
+  bootstrap-social-rails
   byebug
   coffee-rails (~> 4.1.0)
+  font-awesome-sass (~> 4.6.2)
   guard
   guard-minitest
   jbuilder (~> 2.0)
@@ -237,4 +243,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.5
+   1.13.2
