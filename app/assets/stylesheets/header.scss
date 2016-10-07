@@ -15,9 +15,13 @@ li {
   color: white;
   a {
   color: #718087;
+  text-decoration: none;
   }
   a:hover {
   text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
   }
 
 }
@@ -26,4 +30,3 @@ li {
   display: none;
 }
 }
-
